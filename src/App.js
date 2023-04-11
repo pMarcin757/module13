@@ -15,8 +15,8 @@ function App() {
     },
     validate: values => {
       let errors = {};
-      if(!values.emailField) errors.emailField = "Field required";
-      if(!values.pswField) errors.pswField = "Username should be an email";
+      if(!values.emailField) errors.emailField = "Username should be an email";
+      if(!values.pswField) errors.pswField = "Field required";
       return errors;
     }
   })
