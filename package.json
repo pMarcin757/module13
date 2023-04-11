@@ -1,7 +1,7 @@
 {
   "name": "test-react-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "formik": "^2.2.5",
     "react": "^17.0.1",
